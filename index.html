@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection">
+	<title>LATIHAN AKSES PUBLIC REST API</title>
+
+	<style>
+		body{
+			font-family: 'Roboto Condensed', serif;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="navbar-fixed">
+		<nav style="background-color:#583125">
+			<div class="nav-wrapper container">
+			<a href="#" class="brand-logo">INFO SEPUTAR BOLA</a>
+			<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		      <ul id="nav-mobile" class="topnav right hide-on-med-and-down">
+			    <li><a href="#teams">Daftar Tim Bola</a></li>
+			    <li><a href="#standings">Klasemen</a></li>
+			    <li><a href="#matches">Jadwal Pertandingan</a></li>
+		      </ul>	
+			</div>
+		</nav>
+	</div>
+	<ul id="slide-out" class="sidenav">
+		<li><a href="#teams">Daftar Tim Bola</a></li>
+		<li><a href="#standings">Klasemen</a></li>
+		<li><a href="#matches">Jadwal Pertandingan</a></li>
+	</ul>
+	<div class="container">
+		<center><h4 class="card-tittle"></h4></center>
+		<div id="content-list" class="row">
+			
+		</div>
+	</div>
+
+	<div id="modal1" class="modal"></div>
+
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
